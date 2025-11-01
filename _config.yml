@@ -51,8 +51,6 @@ about_content: | # this will include new lines to allow paragraphs
   안녕하세요!
   꾸준함으로 성장하는 개발자 이학성입니다.
   
-  저는 42경산 교육 프로그램에 참여중인 학습자입니다. 팀 과제와 개인 프로젝트를 통해 프로그래밍 기초와 협업을 배우고 있습니다.
-
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)

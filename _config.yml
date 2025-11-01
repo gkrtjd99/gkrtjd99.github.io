@@ -16,13 +16,13 @@ darkmode: false
 
 # Social links
 #twitter_username: facespics
-github_username:  Austin
+github_username:  gkrtjd99
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
 #instagram_username: jameswgrant
-linkedin_username: hakseong lee
+linkedin_username: hakseong-lee-0b4a91290
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -104,22 +104,10 @@ content:
         title: 42경산
         caption: 2024.10 - Present
         sub_title: 교육 프로그램 (Computer Science)
-        quote: >
-          프로젝트 기반의 실습 중심 교육을 통해 문제 해결 능력과 협업을 익혔습니다.
         description: | # this will include new lines to allow paragraphs
+          프로젝트 기반의 실습 중심 교육을 통해 문제 해결 능력과 협업을 익혔습니다.
+          
           42경산에서 다양한 실습 과제와 프로젝트를 수행하고 있습니다. 팀과제 중심의 학습 방식으로 협업 경험을 쌓았고, 알고리즘, 시스템 프로그래밍, 웹 개발 등의 기초를 다졌습니다.
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true

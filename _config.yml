@@ -48,8 +48,10 @@ linkedin_username: hakseong lee
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-안녕하세요!
-꾸준함으로 성장하는 개발자 이학성입니다.
+  안녕하세요!
+  꾸준함으로 성장하는 개발자 이학성입니다.
+  
+  저는 42경산 교육 프로그램에 참여중인 학습자입니다. 팀 과제와 개인 프로젝트를 통해 프로그래밍 기초와 협업을 배우고 있습니다.
 
 content:
   - title: Projects # Title for the section
@@ -79,7 +81,7 @@ content:
         description: |
           아진산업과의 기업 연계 프로젝트로, 제조 과정의 물류를 팔레트 단위로 추적하는 시스템을 구축했습니다. 각 공정에서 RFID나 바코드로 팔레트를 스캔해 공정 이력을 기록하고, 선입선출(FIFO) 로직과 원자재 추적을 통해 불량 발생 시 단계별로 제품을 추적하여 불량 범위를 빠르게 파악할 수 있도록 지원합니다.
 
-          제 역할: API 서버 및 MySQL 데이터베이스 설계/구현을 담당했습니다. API를 통해 공정 이벤트를 수집하고, 팔레트 및 자재 이력 조회용 엔드포인트를 제공하여 프론트엔드 모니터링 애플리케이션에 데이터를 전달했습니다.
+          제 역할은 API 서버 및 MySQL 데이터베이스 설계/구현을 담당했습니다. API를 통해 공정 이벤트를 수집하고, 팔레트 및 자재 이력 조회용 엔드포인트를 제공하여 프론트엔드 모니터링 애플리케이션에 데이터를 전달했습니다.
 
 # - title: Experience # Title for the section
 #    layout: list # Type of content section (list/text)

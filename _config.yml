@@ -58,7 +58,7 @@ content:
   - title: Skills
     layout: text
     content: |
-      - **Languages**: C, C++
+      - **Languages**: C, C++, Python
       - **Backend**: FastAPI (Learning)
       - **Database**: MySQL (Learning)
       - **DevOps**: Docker, Docker Compose
@@ -69,7 +69,7 @@ content:
     content:
       - layout: top-middle
         title: 아진산업 — 제조 공정 물류 추적 시스템
-        caption: 2024.09 - Present (진행 중)
+        caption: 2025.09 - Present (진행 중)
         link: https://github.com/gkrtjd99
         additional_links:
           - title: GitHub

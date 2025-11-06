@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: 이학성(Hakseong Lee)
-title: Software Engineer
+title: Backend Developer
 email: gkrtjd999@gmail.com
 website: www.github.com/gkrtjd99
 
@@ -30,10 +30,10 @@ linkedin_username: hakseong-lee-0b4a91290
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-#additional_links:
-#- title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
+additional_links:
+- title: 기술 블로그
+  icon: fas fa-blog
+  url: https://velog.io/@gkrtjd99/posts
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,38 +48,74 @@ linkedin_username: hakseong-lee-0b4a91290
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요!
-  꾸준함으로 성장하는 개발자 이학성입니다.
+  안녕하세요, 주니어 개발자 이학성입니다.
+  
+  새로운 기술을 배우고 문제를 해결하는 과정을 즐기며, 꾸준한 학습으로 전문성을 쌓아가고 있습니다.
+  
+  다양한 프로젝트를 통해 실무 경험을 쌓으며 성장하고 있습니다.
   
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Skills
+    layout: text
+    content: |
+      - **Languages**: C, C++, Python
+      - **Backend**: FastAPI
+      - **Database**: MySQL (Learning)
+      - **DevOps**: Docker, Docker Compose
+      - **Tools**: Git, GitHub
+      - **Learning**: 기술 블로그를 통해 학습 내용과 문제 해결 과정을 기록 중 ([velog.io/@gkrtjd99](https://velog.io/@gkrtjd99/posts))
+
+  - title: Projects
+    layout: list
     content:
       - layout: top-middle
-        title: 42GS
+        title: 아진산업 — 제조 공정 물류 추적 시스템
+        caption: 2024.09 - Present (진행 중)
+        link: https://github.com/gkrtjd99
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/gkrtjd99/
+        quote: >
+          기업 연계 프로젝트로 제조 공정의 실시간 물류 추적 시스템을 구축하며, 백엔드 개발 및 인프라 설계를 주도했습니다.
+        description: |
+          **[핵심 역할]**
+          - **데이터베이스 설계**: MySQL을 활용하여 공정별 팔레트 이력, RFID 스캔 데이터, 원자재 추적을 위한 DB 스키마 설계 및 구현
+          - **물류 프로세스 정립**: 공장 현장 분석을 통해 RFID 기반 팔레트 추적 및 선입선출(FIFO) 로직 설계
+          - **API 서버 개발**: FastAPI를 활용하여 RESTful API 서버 구축 (현재 진행 중)
+          - **협업 인프라 구축**: Docker Compose를 통해 DB와 API 서버를 컨테이너화하여 팀원(임베디드, 웹 개발자)에게 개발 환경 공유
+          
+          **[기술 스택]**: Python, FastAPI, MySQL, Docker, Docker Compose
+          
+          **[성과]**
+          - 불량 발생 시 원자재부터 완제품까지 단계별 추적이 가능한 데이터베이스 구조 확립
+          - Docker 기반 환경 구축으로 팀원 간 개발 환경 통일 및 협업 효율성 향상
+
+      - layout: top-middle
+        title: 42경산 — 시스템 프로그래밍 과제 프로젝트
+        caption: 2024.10 - Present
         link: https://github.com/gkrtjd99/42
         additional_links:
           - title: GitHub
             icon: fab fa-github
             url: https://github.com/gkrtjd99/42
         quote: >
-          42 경산 교육 과정을 통해 다양한 실습과 프로젝트를 수행하며 기본기를 다졌습니다.
-        description: | # this will include new lines to allow paragraphs
-          42 저장소에 정리한 학습 자료와 과제들을 통해 시스템 프로그래밍, 알고리즘, 네트워킹, 웹 개발 등 기본기를 습득했습니다. 여러 팀 프로젝트와 개인 과제를 통해 문제 해결 능력과 협업 경험을 쌓았습니다.
-
-      - layout: top-middle
-        title: 아진산업 — 제조 공정 물류 추적 시스템 (기업 연계 프로젝트)
-        link: https://github.com/gkrtjd99
-        additional_links:
-          - title: GitHub
-            icon: fab fa-github
-            url: https://github.com/gkrtjd99
-        quote: >
-          팔레트 단위의 RFID/바코드 스캔을 통해 공정별 선입선출(FIFO) 및 원자재 추적을 구현했습니다.
+          C/C++ 기반 시스템 프로그래밍 과제를 통해 저수준 프로그래밍과 알고리즘 역량을 강화했습니다.
         description: |
-          아진산업과의 기업 연계 프로젝트로, 제조 과정의 물류를 팔레트 단위로 추적하는 시스템을 구축했습니다. 각 공정에서 RFID나 바코드로 팔레트를 스캔해 공정 이력을 기록하고, 선입선출(FIFO) 로직과 원자재 추적을 통해 불량 발생 시 단계별로 제품을 추적하여 불량 범위를 빠르게 파악할 수 있도록 지원합니다.
-
-          제 역할은 API 서버 및 MySQL 데이터베이스 설계/구현을 담당했습니다. API를 통해 공정 이벤트를 수집하고, 팔레트 및 자재 이력 조회용 엔드포인트를 제공하여 프론트엔드 모니터링 애플리케이션에 데이터를 전달했습니다.
+          **[완료한 주요 과제]**
+          - **Inception**: Docker Compose를 활용한 다중 컨테이너 인프라 구축 (NGINX, WordPress, MariaDB, 볼륨 및 네트워크 관리)
+          - **minishell**: Bash와 유사한 쉘 프로그램 구현 (파이프, 리다이렉션, 환경 변수, 시그널 처리)
+          - **Philosophers**: 멀티스레딩과 뮤텍스를 이용한 동기화 문제 해결 (식사하는 철학자 문제, 데드락 방지)
+          - **cub3d**: 레이캐스팅 기법을 활용한 3D 그래픽 엔진 구현 (Wolfenstein 3D 스타일)
+          - **push_swap**: 스택 2개를 사용한 정렬 알고리즘 최적화 (최소 연산 횟수 도전)
+          
+          **[기술 스택]**: C, C++, Docker, Docker Compose, Makefile
+          
+          **[학습 성과]**
+          - Docker 컨테이너화 및 오케스트레이션을 통한 인프라 구축 경험
+          - 메모리 누수 없는 안전한 코드 작성 (Valgrind 검증)
+          - 알고리즘 최적화 및 시간 복잡도 개선 경험
+          - 동시성 프로그래밍과 프로세스/스레드 관리 이해
 
 # - title: Experience # Title for the section
 #    layout: list # Type of content section (list/text)
@@ -101,11 +137,13 @@ content:
       - layout: left
         title: 42경산
         caption: 2024.10 - Present
-        sub_title: 교육 프로그램 (Computer Science)
-        description: | # this will include new lines to allow paragraphs
-          프로젝트 기반의 실습 중심 교육을 통해 문제 해결 능력과 협업을 익혔습니다.
+        sub_title: 소프트웨어 개발 교육 과정
+        description: |
+          동료 학습 방식의 프로젝트 기반 교육 과정으로, 교수나 강의 없이 학생들이 서로 가르치고 배우며 성장합니다.
           
-          42경산에서 다양한 실습 과제와 프로젝트를 수행하고 있습니다. 팀과제 중심의 학습 방식으로 협업 경험을 쌓았고, 알고리즘, 시스템 프로그래밍, 웹 개발 등의 기초를 다졌습니다.
+          - Git을 활용한 협업 및 코드 리뷰 경험
+          - 동료 평가를 통한 코드 품질 관리
+          - 자기주도 학습과 문제 해결 중심의 커리큘럼
 
 # Footer
 footer_show_references: true

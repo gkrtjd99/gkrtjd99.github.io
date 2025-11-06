@@ -58,12 +58,11 @@ content:
   - title: Skills
     layout: text
     content: |
-      - **Languages**: C, C++, Python
-      - **Backend**: FastAPI
+      - **Languages**: C, C++
+      - **Backend**: FastAPI (Learning)
       - **Database**: MySQL (Learning)
       - **DevOps**: Docker, Docker Compose
       - **Tools**: Git, GitHub
-      - **Learning**: 기술 블로그를 통해 학습 내용과 문제 해결 과정을 기록 중 ([velog.io/@gkrtjd99](https://velog.io/@gkrtjd99/posts))
 
   - title: Projects
     layout: list
@@ -82,17 +81,18 @@ content:
           **[핵심 역할]**
           - **데이터베이스 설계**: MySQL을 활용하여 공정별 팔레트 이력, RFID 스캔 데이터, 원자재 추적을 위한 DB 스키마 설계 및 구현
           - **물류 프로세스 정립**: 공장 현장 분석을 통해 RFID 기반 팔레트 추적 및 선입선출(FIFO) 로직 설계
-          - **API 서버 개발**: FastAPI를 활용하여 RESTful API 서버 구축 (현재 진행 중)
-          - **협업 인프라 구축**: Docker Compose를 통해 DB와 API 서버를 컨테이너화하여 팀원(임베디드, 웹 개발자)에게 개발 환경 공유
+          - **API 서버 개발**: FastAPI를 활용하여 RESTful API 서버 구축 중
+          - **인프라 구축**: Docker Compose를 통해 DB와 API 서버를 컨테이너화하여 팀원(임베디드, 웹 개발자)에게 개발 환경 공유 예정
           
           **[기술 스택]**: Python, FastAPI, MySQL, Docker, Docker Compose
           
-          **[성과]**
-          - 불량 발생 시 원자재부터 완제품까지 단계별 추적이 가능한 데이터베이스 구조 확립
-          - Docker 기반 환경 구축으로 팀원 간 개발 환경 통일 및 협업 효율성 향상
+          **[진행 상황 및 기대 효과]**
+          - 팔레트 단위 추적을 위한 데이터베이스 스키마 설계 완료
+          - 불량 발생 시 원자재부터 완제품까지 단계별 역추적이 가능한 시스템 구축 중
+          - Docker 기반 개발 환경 구축으로 팀원 간 협업 효율성 향상 기대
 
       - layout: top-middle
-        title: 42경산 — 시스템 프로그래밍 과제 프로젝트
+        title: 42경산 — 시스템 프로그래밍 과제
         caption: 2024.10 - Present
         link: https://github.com/gkrtjd99/42
         additional_links:

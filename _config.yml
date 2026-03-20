@@ -77,7 +77,7 @@ content:
         additional_links:
           - title: PDF 발표자료
             icon: fas fa-file-pdf
-            url: assets/docs/ajin-rfid-project.pdf
+            url: https://gkrtjd99.github.io/assets/docs/ajin-rfid-project.pdf
         quote: >
           제조 공정 이해를 바탕으로 작업 흐름과 데이터 구조를 설계하고, AI와 협업해 RFID 기반 이력 추적 시스템을 구체화한 기업 연계 프로젝트입니다.
         description: |
